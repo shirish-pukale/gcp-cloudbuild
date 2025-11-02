@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "gcs" {
-    bucket = "tf-state-bucket"
+    bucket = "tf-state-bucket-gcp"
     prefix = "vm-cloudbuild"
   }
 }
